@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/hayek/Downloads/delivery_time/Delivery_Time_Predictor/mlruns/0/111076b1bf064807b31e418cc6de3c3d/artifacts
+end_time: 1736539356748
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 111076b1bf064807b31e418cc6de3c3d
+run_name: redolent-shrike-542
+run_uuid: 111076b1bf064807b31e418cc6de3c3d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736539338523
+status: 3
+tags: []
+user_id: hayek
