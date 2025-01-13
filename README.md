@@ -38,20 +38,26 @@ This project is about predicting the delivery time of a parcel based on differen
 * The model will be saved in a file called 'delivery_time_predictor.pkl'
 * You can use this model to predict the delivery time of a parcel
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
+- Download the requirment.txt in the back and front. 
+
+- Start the back using this line 
+```sh 
+uvicorn main:app --reload
 ```
 
+- Start the front using this line 
+```sh
+python app.py
+```
+
+- Start MLFlow using this line 
+```sh
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
+```
 ## Authors
 
 Contributors names and contact info
 
 PAILLOT Jefferson
 HAYEK Sofiene
-## Version History
-
-* 0.1
-    * Initial Release
